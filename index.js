@@ -27,5 +27,5 @@ BoardMember.prototype.releasePressStatement = function(){
 class Ceo extends BoardMember {
 super.sayHi(){
   super.sayHi()
-    return "You're hired!"
+    return "Welcome Aboard!"
   }
