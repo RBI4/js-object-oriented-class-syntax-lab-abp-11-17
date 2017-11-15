@@ -1,4 +1,5 @@
-function BoardMember(name,homeState,training){
+function BoardMember{
+  constructor(name, homeState, training){
   this.name = name
   this.homeState = homeState
   this.training = training
@@ -25,7 +26,7 @@ BoardMember.prototype.releasePressStatement = function(){
 }
 
 class Ceo extends BoardMember {
-super.sayHi(){
-  super.sayHi()
+  hireEmployee(){
     return "Welcome Aboard!"
   }
+}
